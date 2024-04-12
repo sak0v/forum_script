@@ -1,0 +1,234 @@
+/* ==UserStyle==
+@name        NewStyle-1cel9iz5
+@description This is your new file, start writing code
+// @match       *://*.forum.blackrussia.online/*
+// @include      https://forum.blackrussia.online/index.php?threads/
+==/UserStyle== */
+body {
+background-image: url("https://cdn.statically.io/img/i.pinimg.com/originals/09/24/4c/09244c7f7dd4d17b0484370f32db6641.gif");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.button-text{
+font-weight: bold;
+}
+
+.button, a.button{
+color: #fff;
+}
+
+.block.block--category .block-header{
+text-shadow: 0 0 1px rgb(0 242 255 / 70%);
+}
+
+.structItem-status.structItem-status--sticky{
+	color: #fff;
+}
+
+.menu-tabHeader .tabs-tab.is-active{
+border-color: #00A8FF;
+}
+
+.badge.badge--highlighted, .badgeContainer.badgeContainer--highlighted:after{
+background: #00A8FF;
+}
+
+.tabs-tab{
+color: #00A8FF;
+}
+
+.blockLink.is-selected{
+color: #00A8FF;
+border-left: 2px solid #00A8FF;
+}
+
+.block-tabHeader .tabs-tab:hover{
+color: #00A8FF;
+}
+
+.button.button--primary, a.button.button--primary{
+background: linear-gradient(#00A8FF, #00A8FF);
+}
+
+.button.button--primary:hover, a.button.button--primary:hover, .button.button--primary:focus, a.button.button--primary:focus{
+background: linear-gradient(#00A8FF, #00A8FF);
+}
+
+.menu-linkRow.is-selected, .menu-linkRow:hover, .menu-linkRow:focus{
+color: #00A8FF;
+}
+
+.fr-toolbar{
+border-top-color: rgb(0, 168, 255);
+}
+
+.fr-toolbar{
+border-top: 2px solid #00A8FF;
+}
+
+.block-tabHeader .tabs-tab.is-active{
+color: #00A8FF;
+border-color: #00A8FF;
+}
+
+.messageNotice{
+border-left: 2px solid #00A8FF;
+}
+
+.messageNotice:before{
+color: #00A8FF;
+}
+
+.messageNotice:not(.messageNotice--highlighted) a, .messageNotice:not(.messageNotice--highlighted) a:hover{
+color: #00A8FF;
+}
+
+
+.bbCodeBlock{
+border-left: 2px solid #00A8FF;
+}
+
+.bbCodeBlock-title{
+color: #00A8FF;
+}
+
+.button.button--scroll, a.button.button--scroll{
+background: linear-gradient(#00A8FF, #00A8FF);
+}
+
+.bbCodeBlock-expandLink a{
+color: #00A8FF;
+}
+
+.message-newIndicator{
+background: #00A8FF;
+}
+
+.p-navEl-link p-navEl-link--splitMenu {
+opacity: 0;
+}
+
+.menu-content:before{
+background: linear-gradient(
+-270deg
+, #00A8FF 0%, #00A8FF 100%);
+}
+
+.tabs--standalone .tabs-tab.is-active{
+color: #00A8FF;
+border-color: #00A8FF;
+}
+.tabs--standalone .tabs-tab:hover{
+color: #00A8FF;
+}
+
+.p-nav-list .p-navEl.is-selected:after{
+background: linear-gradient(
+-270deg
+, #00A8FF 0%, #00A8FF 100%);
+}
+
+.p-nav-list .p-navEl.is-selected{
+color: #00A8FF;
+}
+
+.button.button--link, a.button.button--link{
+background: #00A8FF;
+}
+
+.js-thHolidaysSnowstormCanvas{
+opacity: 0;
+}
+
+.block-body .block-minorHeader.uix_threadListSeparator:before{
+background: linear-gradient(-270deg, #00A8FF 0%, #00A8FF 100%);
+}
+
+.button.button--cta, a.button.button--cta{
+background: #00A8FF;
+border-color: #00A8FF00;
+background-color: #00A8FF;
+}
+
+.button.button--cta:hover, a.button.button--cta:hover, .button.button--cta:focus, a.button.button--cta:focus{
+background: #00A8FF;
+border-color: #00A8FF00;
+background-color: #00A8FF;
+}
+
+.button--cta{
+background: #00A8FF;
+border-color: #00A8FF00;
+background-color: #00A8FF;
+}
+
+.p-nav {
+opacity: 0.95;
+}
+.block-container {
+opacity: 0.95;
+}
+.p-footer {
+opacity: 0.95;
+}
+.button.button--cta, a.button.button--cta {
+opacity: 0.95;
+}
+.buttonGroup {
+opacity: 0.95;
+}
+.button--scroll ripple-JsOnly button {
+opacity: 0.95;
+}
+.button--scroll ripple-JsOnly button {
+opacity: 0.95;
+}
+.pageNav-main {
+opacity: 0.95;
+}
+.pageNav-jump {
+opacity: 0.95;
+}
+.tabPanes {
+opacity: 0.95;
+}
+.menu-content {
+opacity: 0.95;
+}
+.overlay {
+opacity: 0.95;
+}
+span[itemprop="name"] {
+text-shadow: 1px 0 1px #22242b,
+0 1px 1px #22242b,
+-1px 0 1px #22242b,
+0 -1px 1px #22242b;
+}
+span[class="hScroller-scroll is-calculated"] {
+background-color: #22242b;
+opacity: 0.95;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+.p-body-header .p-title-value {
+text-shadow: 1px 0 1px #22242b,
+0 1px 1px #22242b,
+-1px 0 1px #22242b,
+0 -1px 1px #22242b;
+}
+.block-minorHeader {
+background-color: #22242b;
+opacity: 0.95;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+.a .uix_logo {
+background-image: url("https://emkfriedrichsdorf.de/sites/default/files/icons/YouTub..");
+background-attachment: fixed;
+}
